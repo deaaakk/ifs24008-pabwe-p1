@@ -2,67 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IMDb Top 3 Movies Chart">
     <title>IMDb Top 3 Movies</title>
 </head>
 <body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <p>
+                <strong>Navigation:</strong>&nbsp;
+                <a href="index.html">IMDb Movies</a>&nbsp;|&nbsp;
+                <a href="blog.html">Dev Blogs</a>&nbsp;|&nbsp;
+                <a href="form.html">Registration Form</a>&nbsp;|&nbsp;
+                <a href="cv.html">Curriculum Vitae</a>
+            </p>
+        </nav>
+        <hr>
+    </header>
 
-    <h3>IMDb Chart</h3>
-    <h1>IMDb Top 3 Movies</h1>
-    <hr />
+    <main>
+        <h3>IMDb Chart</h3>
+        <h1>IMDb Top 3 Movies</h1>
+        <hr>
 
-    <!-- Daftar Film 1 -->
-    <table>
-        <tr>
-            <td valign="top">
-                <img src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL75_UX72_CR0,1,72,107_.jpg" width="72" height="107" alt="The Shawshank Redemption" />
-            </td>
-            <td valign="top">
-                <h3>1. The Shawshank Redemption</h3>
-                <p>
-                    <span>1994</span>&nbsp;&nbsp;
-                    <span>2h 22m</span>&nbsp;&nbsp;
-                    <span>R</span>
-                </p>
-                <p>⭐ 9.3 (2.9M)</p>
-            </td>
-        </tr>
-    </table>
+        <h2 hidden>Top 3 Movies List</h2>
 
-    <!-- Daftar Film 2 -->
-    <table>
-        <tr>
-            <td valign="top">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjdb_BiwaRCF-HuIYYeN0J_iDB_-mBx4Imll4S9XECNw&s=10" width="72" height="107" alt="The Godfather" />
-            </td>
-            <td valign="top">
-                <h3>2. The Godfather</h3>
-                <p>
-                    <span>1972</span>&nbsp;&nbsp;
-                    <span>2h 55m</span>&nbsp;&nbsp;
-                    <span>R</span>
-                </p>
-                <p>⭐ 9.2 (2M)</p>
-            </td>
-        </tr>
-    </table>
+        <!-- Movie 1 -->
+        <table role="presentation">
+            <tr>
+                <td valign="top">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL75_UX72_CR0,1,72,107_.jpg" width="72" height="107" alt="The Shawshank Redemption">
+                </td>
+                <td valign="top">
+                    <h3>1. The Shawshank Redemption</h3>
+                    <p>
+                        <span>1994</span>&nbsp;&nbsp;
+                        <span>2h 22m</span>&nbsp;&nbsp;
+                        <span>R</span>
+                    </p>
+                    <p>⭐ 9.3 (2.9M)</p>
+                </td>
+            </tr>
+        </table>
 
-    <!-- Daftar Film 3 -->
-    <table>
-        <tr>
-            <td valign="top">
-                <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX72_CR0,0,72,107_.jpg" width="72" height="107" alt="The Dark Knight" />
-            </td>
-            <td valign="top">
-                <h3>3. The Dark Knight</h3>
-                <p>
-                    <span>2008</span>&nbsp;&nbsp;
-                    <span>2h 32m</span>&nbsp;&nbsp;
-                    <span>PG-13</span>
-                </p>
-                <p>⭐ 9.0 (2.9M)</p>
-            </td>
-        </tr>
-    </table>
+        <!-- Movie 2 -->
+        <table role="presentation">
+            <tr>
+                <td valign="top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjdb_BiwaRCF-HuIYYeN0J_iDB_-mBx4Imll4S9XECNw&s=10" width="72" height="107" alt="The Godfather">
+                </td>
+                <td valign="top">
+                    <h3>2. The Godfather</h3>
+                    <p>
+                        <span>1972</span>&nbsp;&nbsp;
+                        <span>2h 55m</span>&nbsp;&nbsp;
+                        <span>R</span>
+                    </p>
+                    <p>⭐ 9.2 (2M)</p>
+                </td>
+            </tr>
+        </table>
 
+        <!-- Movie 3 -->
+        <table role="presentation">
+            <tr>
+                <td valign="top">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX72_CR0,0,72,107_.jpg" width="72" height="107" alt="The Dark Knight">
+                </td>
+                <td valign="top">
+                    <h3>3. The Dark Knight</h3>
+                    <p>
+                        <span>2008</span>&nbsp;&nbsp;
+                        <span>2h 32m</span>&nbsp;&nbsp;
+                        <span>PG-13</span>
+                    </p>
+                    <p>⭐ 9.0 (2.9M)</p>
+                </td>
+            </tr>
+        </table>
+    </main>
 </body>
 </html>
